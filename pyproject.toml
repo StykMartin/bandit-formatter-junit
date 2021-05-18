@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "bandit-formatter-junit"
-version = "0.1.0"
+version = "0.1.1"
 description = "A bandit formatter plugin for valid JUnit output"
 authors = ["Martin Styk <mart.styk@gmail.com>"]
 license = "MIT"
