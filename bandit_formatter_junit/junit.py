@@ -46,7 +46,6 @@ def report(manager, fileobj, sev_level, conf_level, lines=-1):
         ).text = text
     if not issues:
         testcase = ET.SubElement(root, "testcase", name="NO-ISSUES")
-        ET.SubElement(testcase, "skipped", message="No issues found.")
 
     tree = ET.ElementTree(root)
 
